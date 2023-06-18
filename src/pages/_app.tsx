@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <ThemeProvider theme={availableThemes[theme]}>
         <GlobalStyle />
-        <Component {...pageProps} setTheme={setTheme} />
+        <Component {...pageProps} setTheme={setTheme} theme={theme} />
       </ThemeProvider>
     </>
   );

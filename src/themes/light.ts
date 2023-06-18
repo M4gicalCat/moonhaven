@@ -11,4 +11,8 @@ export const lightTheme = {
     secondary: '#333333',
     accents: ['#FFAC33', '#C0C0C0'],
   },
+  border: {
+    primary: '#C0C0C0',
+    secondary: '#FF6600',
+  },
 };
